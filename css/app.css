@@ -40,7 +40,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 h2 {
@@ -84,12 +84,27 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 20rem;
+}
+
+.background-header {
+    background-color: #000;
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    
 }
 
 .db-header img {
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 12rem;
     margin-left: -2.5rem;
+    z-index: 2;
 }
 
 .nombre-sitio {
@@ -100,6 +115,7 @@ h3 {
     font-family: "Saiyan-sans";
     font-weight: normal;
     letter-spacing: .2rem;
+    z-index: 2;
 }
 
 .nombre-sitio span {
@@ -113,6 +129,7 @@ h3 {
 
 .contenedor-navegacion{
     border-top: 1px solid #e1e1e1;
+    background-color: #000;
 }
 
 .nav-principal {
@@ -121,8 +138,16 @@ h3 {
     justify-content: space-between;
 }
 
+.nav-principal a {
+    color: #fff;
+}
+
+.nav-principal a:hover {
+    color: #a96801;
+}
+
 .hero {
-    background-image: url(../img/principal.jpg);
+    background-image: url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
