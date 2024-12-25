@@ -436,3 +436,30 @@ h3 {
     background-color: #005485;
 }
 
+/** Personajes **/
+
+.goku {
+    background-color: #171313;
+}
+
+.goku-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+    align-items: center;
+}
+
+.imagenes-goku {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.imagenes-goku img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
