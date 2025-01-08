@@ -332,7 +332,7 @@ h3 {
 
 .imagen {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 5rem 2rem;
 }
 
@@ -360,6 +360,10 @@ h3 {
     border-bottom: 2px solid #e1e1ee;
     padding-bottom: 4rem;
     margin-bottom: 2rem;
+}
+
+.entrada img{
+    width: 100%;
 }
 
 .entrada:last-of-type {
@@ -393,7 +397,13 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
+    margin-bottom: 2rem;
 }
+
+.galeria:last-of-type {
+    margin-bottom: 0;
+}
+
 
 .galeria img {
     height: 30rem;
