@@ -338,7 +338,7 @@ h3 {
 
 .imagen img {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     object-fit: cover;
 }
 
@@ -364,6 +364,7 @@ h3 {
 
 .entrada img{
     width: 100%;
+    height: 40rem;
 }
 
 .entrada:last-of-type {
